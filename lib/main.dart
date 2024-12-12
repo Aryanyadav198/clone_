@@ -1,5 +1,5 @@
+import 'package:basicsflutter/page2.dart';
 import 'package:flutter/material.dart';
-
 void main() {
   runApp(const MyApp());
 }
@@ -48,7 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
               actions: [
                 TextButton(onPressed: () => Navigator.pop(context, "Cancel"),
                     child: const Text("Cancel")),
-                TextButton(onPressed: () => Navigator.pop(context, "Ok"),
+                TextButton(onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context)=>MyWidget())),
                     child:const Text("Ok"))
               ],
               backgroundColor: Colors.amber,
