@@ -7,7 +7,10 @@ class Page3 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text("You hava done a wrong thing  be ready for Punishment ",style: TextStyle(height: 24),),
+        child: Text(
+          "You hava done a wrong thing  be ready for Punishment ",
+          style: TextStyle(height: 24, color: Colors.red),
+        ),
       ),
     );
   }
