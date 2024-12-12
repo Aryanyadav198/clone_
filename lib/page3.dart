@@ -9,7 +9,7 @@ class Page3 extends StatelessWidget {
       body: Center(
         child: Text(
           "You hava done a wrong thing  be ready for Punishment ",
-          style: TextStyle(height: 24, color: Colors.red),
+          style: TextStyle(height: 24, color: Colors.red,fontWeight: FontWeight.bold),
         ),
       ),
     );
