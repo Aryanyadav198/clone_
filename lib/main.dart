@@ -1,4 +1,5 @@
 import 'package:basicsflutter/page2.dart';
+import 'package:basicsflutter/page3.dart';
 import 'package:flutter/material.dart';
 void main() {
   runApp(const MyApp());
@@ -46,7 +47,7 @@ class _MyHomePageState extends State<MyHomePage> {
               title: const Text("Subscribe Channel"),
               content: const Text("Are you want to subscribe this channel"),
               actions: [
-                TextButton(onPressed: () => Navigator.pop(context, "Cancel"),
+                TextButton(onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context)=> Page3())),
                     child: const Text("Cancel")),
                 TextButton(onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context)=>MyWidget())),
                     child:const Text("Ok"))
