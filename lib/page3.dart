@@ -39,7 +39,7 @@ class Page3 extends StatelessWidget {
             width: 200,
             height: 200,
             decoration: const BoxDecoration(
-              color: Colors.blue,
+              color: Colors.yellow,
               borderRadius: BorderRadius.only(
                   topLeft: Radius.circular(20),
                   bottomRight: Radius.circular(20)),
