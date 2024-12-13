@@ -38,12 +38,12 @@ class Page3 extends StatelessWidget {
           child: Container(
             width: 200,
             height: 200,
-            decoration: const BoxDecoration(
-              color: Colors.blue,
-              borderRadius: BorderRadius.only(
-                  topLeft: Radius.circular(20),
-                  bottomRight: Radius.circular(20)),
-            ),
+            // decoration: const BoxDecoration(
+            //   color: Colors.blue,
+            //   borderRadius: BorderRadius.only(
+            //       topLeft: Radius.circular(20),
+            //       bottomRight: Radius.circular(20)),
+            // ),
           ),
         ));
   }
